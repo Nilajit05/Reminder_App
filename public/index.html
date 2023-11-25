@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Reminder App</title>
+</head>
+<body>
+
+<div class="container">
+  <h1>Reminder App</h1>
+  <div>
+    <label for="reminderDate">Select Date:</label>
+    <input type="date" id="reminderDate">
+    <label for="reminderTime">Set Time:</label>
+    <input type="time" id="reminderTime">
+    <label for="reminderLevel">Reminder Level:</label>
+    <input type="text" id="reminderLevel" placeholder="Enter reminder level">
+    <button id="setReminder">Set Reminder</button>
+  </div>
+  <div id="reminders"></div>
+  <audio id="reminderSound" preload="auto">
+    <source src="assets/sound.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

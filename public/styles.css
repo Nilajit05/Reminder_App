@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  h1{
+    color: rgb(66, 123, 173);
+    text-align: center;
+    
+  }
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #9d6767;
+    border-radius: 15px;
+    background-color: honeydew
+
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(66, 123, 173);
+  }
+  
+  input, button {
+    margin-bottom: 15px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .reminder {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .delete-reminder {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-reminder:hover {
+    background-color: #d9534f;
+  }
