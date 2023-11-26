@@ -51,4 +51,6 @@ To use the Health Reminder App:
 ## Contributing
 
 Contributions are welcome! If you have ideas for improvements or new features, feel free to submit a pull request.
+![image](https://github.com/Nilajit05/Reminder_App/assets/141957524/624f6533-1c20-4919-80e2-b1eda3d3541f)
+
 
